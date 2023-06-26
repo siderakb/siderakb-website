@@ -31,8 +31,3 @@
   --ifm-color-primary-lightest: #d0d0ec;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
-
-.hero--primary {
-  --ifm-hero-background-color: var(--logo-background);
-  --ifm-hero-text-color: var(--logo-font);
-}
