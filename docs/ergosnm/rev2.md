@@ -6,7 +6,7 @@ sidebar_position: 1
 
 ![](https://i.imgur.com/DLbaynl.jpg)
 
-This document for the `Rev 2.X` of the ErgoSNM keyboard, the latest is [`Rev 2.1`](https://github.com/siderakb/ergo-snm-keyboard/releases/tag/v2.1.0).
+This document for the `Rev 2.x` of the ErgoSNM keyboard, the latest is [`Rev 2.1`](https://github.com/siderakb/ergo-snm-keyboard/releases/tag/v2.1.0).
 
 My blog post: [ErgoSNM——有軌跡球的分離式人體工學QMK鍵盤 (v2.1)](https://ziteh.github.io/posts/ergosnm-v2-1-intro/)
 
@@ -146,15 +146,12 @@ The parts that need attention are diodes (1N4148) and switch hot-swap sockers.
 Diodes are unidirectional, solder them in the incorrect direction will make the keyboard not work. Please note which side is anode (+) and which side is cathode (-).  
 The cathode side is marked by lines on the diodes, and the other side is the anode. On the PCB, there is also a line marked on the cathode side. Please solder each diode respectively according to its polarity mark on the PCB.
 
-
-<!-- <a href="https://i.imgur.com/CU7DXw2.jpg"><img src="https://i.imgur.com/CU7DXw2.jpg" width="480"></a>   -->
 ![](https://i.imgur.com/CU7DXw2.jpg)
 ▲ Diode polarity marking.
 
 Solder hot-swap sockets with incorrect placement will block the hole. It is recommended to solder hot-swap sockets after [Test](#test).
 
 ![](https://i.imgur.com/y9A23bO.jpg)
-<!-- <a href="https://i.imgur.com/y9A23bO.jpg"><img src="https://i.imgur.com/y9A23bO.jpg" width="480"></a>   -->
 ▲ Hot-swap sockets placement.
 
 After solder is completed, remember to use a multimeter to test whether the power supply (3.3V and GND) or USB D+/- is not short-circuited.
