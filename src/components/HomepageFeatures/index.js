@@ -4,26 +4,35 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'ErgoSNM',
+    title: 'Keyboards',
     // Svg: require('@site/static/img/logo.svg').default,
     description: (
       <>
-      A split ergonomic keyboard with trackball.
+        We're dedicated to making better keyboards, even if they aren't designed for the majority.
       </>
     ),
   },
   {
-    title: 'Calcite',
+    title: 'Development Boards',
     // Svg: require('@site/static/img/logo.svg').default,
     description: (
       <>
-      A 52 keys ortho Choc low profile switch keyboard.
+        Great tool for developing keyboards, cost-effective, readily available components and user convenience.
+      </>
+    ),
+  },
+  {
+    title: 'Open Source',
+    // Svg: require('@site/static/img/logo.svg').default,
+    description: (
+      <>
+        Almost all repos are under the MIT license.
       </>
     ),
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({ Svg, title, description }) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
