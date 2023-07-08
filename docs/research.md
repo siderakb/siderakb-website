@@ -47,6 +47,7 @@ These projects have helped or inspired me, thank you very much :)
 
 ## Development Boards
 - [nRFMicro](https://github.com/joric/nrfmicro): nRF52840, Pro Micro compatible.
+- [mikoto](https://github.com/zhiayang/mikoto): nRF52840, Pro Micro compatible.
 - [Bonsai-C](https://github.com/customMK/Bonsai-C): STM32F303/STM32F411, Proton C rev2 compatible.
 - [0xB2](https://github.com/plut0nium/0xB2): RP2040, Pro Micro compatible.
 
