@@ -9,7 +9,7 @@ Welcome to the **SideraKB** docs!
 ## Keyboards
 
 - [ErgoSNM](/docs/ergosnm): A split ergonomic keyboard with trackball.
-- [Calcite52](https://github.com/siderakb/calcite): A 52 keys ortho Choc low profile switch keyboard.
+- [Calcite](https://github.com/siderakb/calcite): 60/52 keys ortho Choc low profile switch keyboard.
 - [Miniboard](https://github.com/siderakb/miniboard)🧪: A super mini keyboard.
 - [Keypad](https://github.com/siderakb/keypad)🧪: Some macropads.
 ## Development Boards
