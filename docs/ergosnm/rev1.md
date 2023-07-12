@@ -4,7 +4,9 @@ sidebar_position: 2
 
 # Rev 1.x
 
-⚠️ `Rev 1.x` is an experimental version, NOT recommended for daily use.
+:::caution
+`Rev 1.x` is an experimental version, NOT recommended for daily use.
+:::
 
 ## Parts List
 I didn't prepare the PCBA files for `Rev 1.x`, so you need to order the PCB and all the components, and solder them yourself.
@@ -12,12 +14,12 @@ I didn't prepare the PCBA files for `Rev 1.x`, so you need to order the PCB and 
 Here's a table of parts needed for the build:
 
 | Items                                                       | Spec                                 | Qty | Description                                                                                                                                                                                                                                                                   |
-|-------------------------------------------------------------|--------------------------------------|-----|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ----------------------------------------------------------- | ------------------------------------ | --- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | ErgoSNM keyboard PCBs                                       | Rev `1.x`                            | 2   |                                                                                                                                                                                                                                                                               |
 | [Pro Micro](https://www.sparkfun.com/products/12587) boards | 3.3V/8MHz (recommended)              | 2   | Or compatible boards, e.g.  [Elite-C](https://deskthority.net/wiki/Elite-C), [Next μ](https://github.com/ziteh/next-micro), [RP Micro](https://github.com/ziteh/rp-micro), [nRFMicro](https://github.com/joric/nrfmicro) or [MDBTMicro](https://github.com/ziteh/mdbt-micro). |
 | Key switches                                                | Cherry MX style                      | 70  | Mechanical keyboard switches.                                                                                                                                                                                                                                                 |
 | Diodes                                                      | 1N4148, SOD-123 package              | 70  | Ghosting elimination diodes. The model number with the `W` suffix usually means SOD-123 package, i.e. 1N4148W.                                                                                                                                                                |
-| 3.5mm TRRS sockets                                          | PJ-393 8P                            | 2   | Used to plug in the TRRS cable to connect two halves.                                                                                                                                                                                                                           |
+| 3.5mm TRRS sockets                                          | PJ-393 8P                            | 2   | Used to plug in the TRRS cable to connect two halves.                                                                                                                                                                                                                         |
 | RESET buttons                                               | TL3342, aka 5.2*5.2mm tactile switch | 2   |                                                                                                                                                                                                                                                                               |
 | Key switches hot-swap sockets                               | Cherry MX style                      | 70  | *Optional*                                                                                                                                                                                                                                                                    |
 | Pro Micro sockets                                           | 2.54mm 1*13P pin socket              | 2   | *Optional*                                                                                                                                                                                                                                                                    |

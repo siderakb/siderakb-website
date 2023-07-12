@@ -69,8 +69,8 @@ These projects have helped or inspired me, thank you very much :)
 
 ## Tools
 - ⭐[KiCanvas](https://github.com/theacodes/kicanvas): The KiCad web viewer.
-- [KiCAD KLE Placer](https://github.com/zykrah/kicad-kle-placer): KiCad plugin to place switch footprints based on [keyboard layout editor (KLE)](http://www.keyboard-layout-editor.com/).
-- [KiCAD JLCPCB tools](https://github.com/Bouni/kicad-jlcpcb-tools): KiCad plugin to generate BOM + CPL files for JLCPCB.
+- ⭐[KiCAD KLE Placer](https://github.com/zykrah/kicad-kle-placer): KiCad plugin to place switch footprints based on [keyboard layout editor (KLE)](http://www.keyboard-layout-editor.com/).
+- ⭐[KiCAD JLCPCB tools](https://github.com/Bouni/kicad-jlcpcb-tools): KiCad plugin to generate BOM + CPL files for JLCPCB.
 - [Convert KLE to QMK info.json (QMK Firmware)](https://qmk.fm/converter/)
 - [Freerouting](https://github.com/freerouting/freerouting): PCB auto-router.
 

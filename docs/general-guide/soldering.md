@@ -3,6 +3,10 @@
 
 Some notes on soldering.
 
+:::caution
+After soldering is completed, remember to use a multimeter to test for any short circuits between the power supply (5V, 3.3V, and GND) and USB D+/-.
+:::
+
 ## Diodes
 
 Diodes are unidirectional, and soldering them in the incorrect direction can cause the keyboard to malfunction. Please take note of which side is the anode (+) and which side is the cathode (-).
@@ -19,6 +23,3 @@ Solder hot-swap sockets with incorrect placement will block the hole.
 ![](https://i.imgur.com/y9A23bO.jpg)
 ▲ Hot-swap sockets placement.
 
-## Multimeter
-
-After solder is completed, remember to use a multimeter to test whether the power supply (5V, 3.3V and GND) or USB D+/- is not short-circuited.
