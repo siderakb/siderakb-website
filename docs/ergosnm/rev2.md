@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Rev 2.x
 
-![](https://i.imgur.com/DLbaynl.jpg)
+![](https://i.imgur.com/tddlJ7A.jpg)
 
 This document for the `Rev 2.x` of the ErgoSNM keyboard, the latest is [`Rev 2.1`](https://github.com/siderakb/ergo-snm-keyboard/releases/tag/v2.1.0). Source files: [GitHub](https://github.com/siderakb/ergo-snm-keyboard).
 
