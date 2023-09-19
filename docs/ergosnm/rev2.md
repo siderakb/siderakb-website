@@ -102,7 +102,7 @@ My blog post: [ErgoSNM——有軌跡球的分離式人體工學QMK鍵盤 (v2.1)
     <td><a href="https://www.aliexpress.com/i/1005001632971456.html">Ref</a></td>
   </tr>
   <tr>
-    <td colspan="2">Ball transfer units (Ball rollers)</td>
+    <td colspan="2">Ball transfer units (BTUs, Ball rollers)</td>
     <td>3</td>
     <td>MISUMI BCHJJ7 or CheNa BR869-7 or VCN321-7</td>
     <td><a href="https://us.misumi-ec.com/vona2/detail/110300427030/?HissuCode=BCHJJ7">Ref1</a>, <a href="https://www.aliexpress.com/item/1005003081021713.html">Ref2</a></td>
@@ -230,6 +230,18 @@ Steps summary:
 1. [Complete](#complete)
 
 Video: [ErgoSNM Rev2.1 Soldering and Assembly](https://youtu.be/1BXKdrCFn6c)
+
+:::info
+Before you start, make sure the parts are available, PMW3360 and BTUs are more difficult parts to buy.
+
+Some online electronic parts stores in my country will help find and purchase rare ICs (usually from Taobao), this is how i bought PMW3360.
+There are 3 different BTU models listed in the part list, and they are exact same size.
+
+Approximate cost in USD:
+- PCBA: $80
+- 3D printing case: $46
+- other parts: $32
+:::
 
 ### Prepare Parts
 
