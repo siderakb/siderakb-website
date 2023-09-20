@@ -40,7 +40,7 @@ My blog post: [ErgoSNM——有軌跡球的分離式人體工學QMK鍵盤 (v2.1)
     <td rowspan="3">Left half</td>
     <td>Main PCB</td>
     <td>1</td>
-    <td> </td>
+    <td>Include <a href="#main-pcbs">electronic parts</a> and <a href="https://github.com/siderakb/ergo-snm-keyboard/tree/main/ErgoSNM_Keyboard/rev2/left">PCB</a></td>
     <td rowspan="10"><a href="https://github.com/siderakb/ergo-snm-keyboard/releases/tag/v2.1.0">GH Release Page</a> </td>
   </tr>
   <tr>
@@ -57,7 +57,7 @@ My blog post: [ErgoSNM——有軌跡球的分離式人體工學QMK鍵盤 (v2.1)
     <td rowspan="3">Right half</td>
     <td>Main PCB</td>
     <td>1</td>
-    <td></td>
+    <td>Include <a href="#main-pcbs">electronic parts</a> and <a href="https://github.com/siderakb/ergo-snm-keyboard/tree/main/ErgoSNM_Keyboard/rev2/right">PCB</a></td>
   </tr>
   <tr>
     <td>Top case</td>
@@ -92,7 +92,7 @@ My blog post: [ErgoSNM——有軌跡球的分離式人體工學QMK鍵盤 (v2.1)
   <tr>
     <td colspan="2">Trackball board</td>
     <td>1</td>
-    <td><a href="https://github.com/siderakb/pmw3360-pcb">PMW3360 PCB</a></td>
+    <td>Include <a href="https://github.com/siderakb/pmw3360-pcb/tree/v3.1.0#bom">electronic parts</a> and <a href="https://github.com/siderakb/pmw3360-pcb/tree/v3.1.0/PMW3360_PCB">PCB</a></td>
     <td><a href="https://github.com/siderakb/pmw3360-pcb/releases/tag/v3.1.0">GH Release Page</a></td>
   </tr>
   <tr>
@@ -159,7 +159,7 @@ Here are listed all the electronic components in more detail for PCBs.
 
 #### Main PCBs
 
-Since the left and right PCB parts are identical, the following table only lists the quantities required for one half. Please multiply by 2 when manufacturing both halves.
+Since the left and right PCB electronic parts are identical, the following table only lists the quantities required for one half. Please multiply by 2 when manufacturing both halves.
 
 :::note
 If you use PCBA service, you don't have to prepare and solder most or even all of the following parts yourself.
@@ -215,8 +215,11 @@ I did not prepare the PCBA files (i.e. BOM and CPL) for thumb cluster, if you ne
 
 #### Trackball Board
 
-For ErgoSNM `v2.1`, ref to [PMW3360 PCB `v3.1`](https://github.com/siderakb/pmw3360-pcb/releases/tag/v3.1.0).  
-For ErgoSNM `v2.0`, ref to [PMW3360 PCB `v3.0`](https://github.com/siderakb/pmw3360-pcb/releases/tag/v3.0.0).
+For ErgoSNM `v2.1`, ref to PMW3360 PCB `V3.1`:
+- [BOM](https://github.com/siderakb/pmw3360-pcb/tree/v3.1.0#bom)
+- [Release](https://github.com/siderakb/pmw3360-pcb/releases/tag/v3.1.0)
+
+> For ErgoSNM `v2.0`, ref to [PMW3360 PCB `v3.0`](https://github.com/siderakb/pmw3360-pcb/releases/tag/v3.0.0).
 
 ## Build Guide
 
