@@ -65,7 +65,7 @@ const config = {
         defaultMode: 'dark'
       },
       // Replace with your project's social card
-      image: 'img/logo.svg',
+      image: 'img/social_card.jpg',
       navbar: {
         title: 'SideraKB',
         logo: {

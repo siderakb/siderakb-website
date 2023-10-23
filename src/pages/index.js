@@ -32,7 +32,7 @@ export default function Home() {
   return (
     <Layout
       title={`Sidera Keyboard`}
-      description="Description will go into a meta tag in <head />">
+      description="Open source mechanical keyboard">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
