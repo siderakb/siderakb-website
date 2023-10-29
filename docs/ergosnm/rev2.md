@@ -278,7 +278,7 @@ import TabItem from '@theme/TabItem';
 <Tabs>
   <TabItem value="uf2" label="UF2 file" default>
     <ol>
-      <li>Download Pre-build <code>.uf2</code> firmware file from <a href="https://github.com/siderakb/ergo-snm-keyboard/releases/tag/v2.1.0">Releases</a> page.</li>
+      <li>Download Pre-build <code>.uf2</code> firmware file from <a href="https://github.com/siderakb/vial-qmk/releases/tag/ergosnm_v2.1.0">Releases</a> page.</li>
       <li><a href="/docs/general-guide/dfu#raspberry-pi-rp2040">Enter DFU mode</a>.</li>
       <li>Copy and paste <code>.uf2</code> file to the <code>RPI-RP2</code> device.</li>
     </ol>
