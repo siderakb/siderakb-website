@@ -8,7 +8,7 @@ const FeatureList = [
     // Svg: require('@site/static/img/logo.svg').default,
     description: (
       <>
-        We're dedicated to making better keyboards, even if they aren't designed for the majority.
+        I'm dedicated to making better keyboards, even if they aren't designed for the majority.
       </>
     ),
   },
@@ -26,7 +26,7 @@ const FeatureList = [
     // Svg: require('@site/static/img/logo.svg').default,
     description: (
       <>
-        Almost all repos are under the MIT license.
+        Permissive license allow people to use or modify more easily and freely.
       </>
     ),
   },
