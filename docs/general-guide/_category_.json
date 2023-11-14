@@ -1,0 +1,14 @@
+{
+  "position": 100,
+  "label": "General Guide",
+  "collapsible": true,
+  "collapsed": false,
+  "className": "red",
+  "link": {
+    "type": "generated-index",
+    "title": "General Guide"
+  },
+  "customProps": {
+    "description": "General Guide"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "position": 2,
+  "label": "ErgoSNM",
+  "collapsible": true,
+  "collapsed": false,
+  "className": "red",
+  "link": {
+    "type": "generated-index",
+    "title": "ErgoSNM Keyboard"
+  },
+  "customProps": {
+    "description": "ErgoSNM"
+  }
+}
