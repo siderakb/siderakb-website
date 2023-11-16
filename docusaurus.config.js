@@ -21,7 +21,7 @@ const config = {
   organizationName: 'siderakb', // Usually your GitHub org/user name.
   projectName: 'siderakb.github.io', // Usually your repo name.
   deploymentBranch: 'gh-pages',
-  onBrokenLinks: 'log',
+  onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
   // Even if you don't use internalization, you can use this field to set useful
