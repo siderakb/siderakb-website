@@ -45,6 +45,11 @@ These projects have helped or inspired me, thank you very much :)
 - [RP2040+PMW3360](https://github.com/jfedor2/rp2040-pmw3360): PCB.
 - [PMW3360 sensor PCB](https://github.com/Bastardkb/charybdis-pmw-3360-sensor-pcb): PMW3360 breakout board.
 
+### Spacemouse
+- ⭐[OS3M Mouse](https://github.com/spoter368/os3m-hardware/tree/master)
+- [Diy spacemouse](https://github.com/sb-ocr/diy-spacemouse)
+- [Haptick](https://github.com/ioces/haptick)
+
 ## Development Boards
 - [nRFMicro](https://github.com/joric/nrfmicro): nRF52840, Pro Micro compatible.
 - [mikoto](https://github.com/zhiayang/mikoto): nRF52840, Pro Micro compatible.
