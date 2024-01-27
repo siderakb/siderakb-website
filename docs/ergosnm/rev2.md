@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Rev 2.x
+# ErgoSNM Rev 2.x
 
 ![](https://i.imgur.com/tddlJ7A.jpg)
 
@@ -223,6 +223,8 @@ For ErgoSNM `v2.1`, ref to PMW3360 PCB `V3.1`:
 
 ## Build Guide
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1BXKdrCFn6c?si=3hTZfduKW4ZxY-fo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 Steps summary:
 1. [Prepare parts](#prepare-parts)
 1. [Solder](#solder)
@@ -231,8 +233,6 @@ Steps summary:
 1. [Assemble](#assemble)
 1. [Edit keymap](#edit-keymap)
 1. [Complete](#complete)
-
-Video: [ErgoSNM Rev2.1 Soldering and Assembly](https://youtu.be/1BXKdrCFn6c)
 
 :::info
 Before you start, make sure the parts are available, PMW3360 and BTUs are more difficult parts to buy.

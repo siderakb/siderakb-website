@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Rev 1.x
+# ErgoSNM Rev 1.x
 
 :::caution
 `Rev 1.x` is an experimental version, NOT recommended for daily use.

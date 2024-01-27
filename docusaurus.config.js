@@ -61,6 +61,11 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      docs: {
+        sidebar: {
+          autoCollapseCategories: true, // https://docusaurus.io/docs/sidebar#auto-collapse-sidebar-categories
+        }
+      },
       colorMode: {
         defaultMode: 'dark'
       },
@@ -75,11 +80,17 @@ const config = {
         items: [
           {
             type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
+            sidebarId: 'docsSidebar',
             position: 'left',
             label: 'Docs',
           },
-          {to: '/docs/ergosnm/rev2', label: 'ErgoSNM', position: 'left'},
+          {
+            type: 'docSidebar',
+            sidebarId: 'keyboardSidebar',
+            position: 'left',
+            label: 'Keyboards',
+          },
+          { to: '/docs/ergosnm/rev2', label: 'ErgoSNM', position: 'left' },
           {
             href: 'https://github.com/siderakb',
             label: 'GitHub',
