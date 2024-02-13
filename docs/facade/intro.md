@@ -12,6 +12,8 @@ A 60% mechanical keyboard kit with 2U LShift layout, gasket mount.
   - [Hardware](https://github.com/siderakb/facade)
   - [Vial-QMK firmware](https://github.com/siderakb/vial-qmk/tree/siderakb/main/keyboards/siderakb/facade) (*siderakb/main* branch).
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Ful9dqWGcHk?si=q32k4E43M4WbCbBa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 ![](https://i.imgur.com/0epoNV4.jpg)
 
 ![](https://i.imgur.com/wCdzQWL.jpg)
