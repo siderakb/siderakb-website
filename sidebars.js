@@ -72,9 +72,9 @@ const sidebars = {
       href: 'https://github.com/siderakb/calcite',
     },
     {
-      type: 'link',
+      type: 'doc',
       label: 'Facade',
-      href: 'https://github.com/siderakb/facade',
+      id: 'facade/intro',
     },
     {
       type: 'link',
