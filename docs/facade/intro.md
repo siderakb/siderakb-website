@@ -20,6 +20,8 @@ A 60% mechanical keyboard kit with 2U LShift layout, gasket mount.
 
 ![](https://i.imgur.com/5vvEwgU.jpg)
 
+![](https://i.imgur.com/PkByMYp.jpg)
+
 ![](https://i.imgur.com/iFf8MBJ.jpg)
 
 ![](https://i.imgur.com/2YoWjrU.jpg)
