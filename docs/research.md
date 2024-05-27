@@ -14,6 +14,7 @@ These projects have helped or inspired me, thank you very much :)
 - [cgxkb](https://github.com/cgxeiji/cgxkb/tree/main/tsbym): QMK, Trackball.
 - [Dactyl TypeSafe](https://github.com/tewtham/dactyl-typesafe): Trackball (ADNS-9800), Wireless.
 - [ScyllaBallz](https://www.reddit.com/r/ErgoMechKeyboards/comments/qkd9xe/scyllaballz_a_tractyl_manuform_with_oleds_roller/): Trackball.
+- ⭐[Dactyl Cygnus](https://github.com/juhakaup/keyboards): Case.
 - [Mitosis](https://github.com/reversebias/mitosis): QMK, Wireless.
   - [joric/Bluetosis](https://github.com/joric/bluetosis): Bluetooth firmware for the Mitosis.
   - [geoah/Bluetosis](https://github.com/geoah/bluetosis): Bluetooth firmware for the Mitosis.
