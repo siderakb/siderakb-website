@@ -87,3 +87,4 @@ These projects have helped or inspired me, thank you very much :)
 - [MechKey](https://mechkey.org/): Keyboard list.
 - [Keebfolio](https://keebfolio.netlify.app/en/staggered/): Keyboard list.
 - [KeymapDB](https://keymapdb.com/): Database of keymaps for programmable keyboards.
+- [Trackball-mousekeys-add-on-for-Skeletyl](https://github.com/Wimads/Trackball-mousekeys-add-on-for-Skeletyl)
