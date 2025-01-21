@@ -14,6 +14,7 @@ These projects have helped or inspired me, thank you very much :)
 - [cgxkb](https://github.com/cgxeiji/cgxkb/tree/main/tsbym): QMK, Trackball.
 - [Dactyl TypeSafe](https://github.com/tewtham/dactyl-typesafe): Trackball (ADNS-9800), Wireless.
 - [ScyllaBallz](https://www.reddit.com/r/ErgoMechKeyboards/comments/qkd9xe/scyllaballz_a_tractyl_manuform_with_oleds_roller/): Trackball.
+- ⭐[Dactyl Cygnus](https://github.com/juhakaup/keyboards): Case.
 - [Mitosis](https://github.com/reversebias/mitosis): QMK, Wireless.
   - [joric/Bluetosis](https://github.com/joric/bluetosis): Bluetooth firmware for the Mitosis.
   - [geoah/Bluetosis](https://github.com/geoah/bluetosis): Bluetooth firmware for the Mitosis.
@@ -64,6 +65,7 @@ These projects have helped or inspired me, thank you very much :)
 - [QMK](https://github.com/qmk/qmk_firmware)
   - ⭐[Vial QMK](https://github.com/vial-kb/vial-qmk)
 - ⭐[ZMK](https://github.com/zmkfirmware/zmk)
+- ⭐[RMK](https://github.com/HaoboGu/rmk)
 - [KMK](https://github.com/KMKfw/kmk_firmware)
 - [TMK](https://github.com/tmk/tmk_keyboard)
 - [BlueMicro](https://github.com/jpconstantineau/BlueMicro_BLE)
@@ -85,3 +87,4 @@ These projects have helped or inspired me, thank you very much :)
 - [MechKey](https://mechkey.org/): Keyboard list.
 - [Keebfolio](https://keebfolio.netlify.app/en/staggered/): Keyboard list.
 - [KeymapDB](https://keymapdb.com/): Database of keymaps for programmable keyboards.
+- [Trackball-mousekeys-add-on-for-Skeletyl](https://github.com/Wimads/Trackball-mousekeys-add-on-for-Skeletyl)
