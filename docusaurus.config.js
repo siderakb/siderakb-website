@@ -90,7 +90,7 @@ const config = {
             position: 'left',
             label: 'Keyboards',
           },
-          { to: '/docs/ergosnm/rev2', label: 'ErgoSNM', position: 'left' },
+          { to: '/docs/ergosnm/intro', label: 'ErgoSNM', position: 'left' },
           {
             href: 'https://github.com/siderakb',
             label: 'GitHub',
