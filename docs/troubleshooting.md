@@ -23,3 +23,5 @@ If you encounter any other issues, please open a **new discussion in the Q&A** c
 - [PMW3360 PCB](https://github.com/siderakb/pmw3360-pcb/discussions/new?category=q-a)
 - [PMW3610 PCB](https://github.com/siderakb/pmw3610-pcb/discussions/new?category=q-a)
 - [RP Micro](https://github.com/siderakb/rp-micro/discussions/new?category=q-a)
+
+> Additionally, here is a document titled [*How To Ask Questions The Smart Way*](http://www.catb.org/~esr/faqs/smart-questions.html) (中文版：[*提問的智慧*](https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way)), which describes how to ask questions effectively. I don’t require people to read or follow it before asking questions, but if you’re willing to go through it, it will be helpful for everyone : )
