@@ -37,6 +37,7 @@ const sidebars = {
       ],
     },
     'how-to-get',
+    'troubleshooting',
     'promicro-pinmap',
     'research',
   ],
