@@ -9,4 +9,4 @@ singleQuote: false
 trailingComma: all
 bracketSameLine: false
 arrowParens: always
-endOfLine: auto
+endOfLine: lf
