@@ -27,6 +27,7 @@
   },
   "devDependencies": {
     "@docusaurus/module-type-aliases": "^3.7.0",
+    "@docusaurus/plugin-content-docs": "^3.8.1",
     "@docusaurus/types": "^3.7.0",
     "husky": "^9.1.7",
     "markdownlint-cli2": "^0.18.1",
