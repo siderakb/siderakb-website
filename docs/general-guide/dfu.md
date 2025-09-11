@@ -15,6 +15,7 @@ If the DFU mode is entered successfully, the keyboard (or RP2040 MCU) will appea
 ## Pro Micro
 
 Follow these steps:
+
 1. Connect the Pro Micro with USB.
 2. Press RESET button (or pulling the RST pin low) twice quickly. Pro Micro will enter bootloader mode for 8 seconds.
 

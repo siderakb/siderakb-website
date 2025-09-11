@@ -12,8 +12,8 @@
     "serve": "docusaurus serve",
     "write-translations": "docusaurus write-translations",
     "write-heading-ids": "docusaurus write-heading-ids",
-    "format": "prettier --check .",
-    "format:fix": "prettier --write ."
+    "format": "prettier --check . && markdownlint-cli2 \"**/*.md\" \"#node_modules\"",
+    "format:fix": "prettier --write . && markdownlint-cli2 --fix \"**/*.md\" \"#node_modules\""
   },
   "dependencies": {
     "@docusaurus/core": "^3.7.0",

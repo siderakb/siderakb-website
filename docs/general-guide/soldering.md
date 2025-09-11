@@ -22,4 +22,3 @@ Solder hot-swap sockets with incorrect placement will block the hole.
 
 ![](https://i.imgur.com/y9A23bO.jpg)
 ▲ Hot-swap sockets placement.
-

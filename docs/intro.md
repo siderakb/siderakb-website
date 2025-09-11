@@ -26,4 +26,3 @@ See [keyboard list](./keyboard-list).
 - [PMW3360 PCB](https://github.com/siderakb/pmw3360-pcb): PMW3360DM-T2QU optical mouse sensor breakout board.
 - [PMW3610 PCB](https://github.com/siderakb/pmw3610-pcb): PMW3610DB-SUDU low power laser mouse sensor breakout board.
 - [key-switches.pretty](https://github.com/siderakb/key-switches.pretty): Mechanical keyboard switches KiCad footprint library.
-

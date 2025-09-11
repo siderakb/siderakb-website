@@ -1,44 +1,44 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require('prism-react-renderer').themes.github;
-const darkCodeTheme = require('prism-react-renderer').themes.dracula;
+const lightCodeTheme = require("prism-react-renderer").themes.github;
+const darkCodeTheme = require("prism-react-renderer").themes.dracula;
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'SideraKB',
-  tagline: 'Nunquam praescriptos transibunt sidera fines',
-  favicon: 'img/favicon.ico',
+  title: "SideraKB",
+  tagline: "Nunquam praescriptos transibunt sidera fines",
+  favicon: "img/favicon.ico",
 
   // Set the production url of your site here
-  url: 'https://siderakb.ziteh.dev/',
+  url: "https://siderakb.ziteh.dev/",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: "/",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'siderakb', // Usually your GitHub org/user name.
-  projectName: 'siderakb.github.io', // Usually your repo name.
-  deploymentBranch: 'gh-pages',
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+  organizationName: "siderakb", // Usually your GitHub org/user name.
+  projectName: "siderakb.github.io", // Usually your repo name.
+  deploymentBranch: "gh-pages",
+  onBrokenLinks: "throw",
+  onBrokenMarkdownLinks: "warn",
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: "en",
+    locales: ["en"],
   },
 
   presets: [
     [
-      'classic',
+      "classic",
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
+          sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           // editUrl:
@@ -52,7 +52,7 @@ const config = {
           //   'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: require.resolve("./src/css/custom.css"),
         },
       }),
     ],
@@ -64,42 +64,42 @@ const config = {
       docs: {
         sidebar: {
           autoCollapseCategories: true, // https://docusaurus.io/docs/sidebar#auto-collapse-sidebar-categories
-        }
+        },
       },
       colorMode: {
-        defaultMode: 'dark'
+        defaultMode: "dark",
       },
       // Replace with your project's social card
-      image: 'img/social_card.jpg',
+      image: "img/social_card.jpg",
       navbar: {
-        title: 'SideraKB',
+        title: "SideraKB",
         logo: {
-          alt: 'SideraKB Logo',
-          src: 'img/logo.svg',
+          alt: "SideraKB Logo",
+          src: "img/logo.svg",
         },
         items: [
           {
-            type: 'docSidebar',
-            sidebarId: 'docsSidebar',
-            position: 'left',
-            label: 'Docs',
+            type: "docSidebar",
+            sidebarId: "docsSidebar",
+            position: "left",
+            label: "Docs",
           },
           {
-            type: 'docSidebar',
-            sidebarId: 'keyboardSidebar',
-            position: 'left',
-            label: 'Keyboards',
+            type: "docSidebar",
+            sidebarId: "keyboardSidebar",
+            position: "left",
+            label: "Keyboards",
           },
-          { to: '/docs/ergosnm/intro', label: 'ErgoSNM', position: 'left' },
+          { to: "/docs/ergosnm/intro", label: "ErgoSNM", position: "left" },
           {
-            href: 'https://github.com/siderakb',
-            label: 'GitHub',
-            position: 'right',
+            href: "https://github.com/siderakb",
+            label: "GitHub",
+            position: "right",
           },
         ],
       },
       footer: {
-        style: 'light',
+        style: "light",
         links: [
           // {
           //   title: 'Docs',

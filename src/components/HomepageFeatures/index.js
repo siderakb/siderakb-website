@@ -1,43 +1,36 @@
-import React from 'react';
-import clsx from 'clsx';
-import styles from './styles.module.css';
+import React from "react";
+import clsx from "clsx";
+import styles from "./styles.module.css";
 
 const FeatureList = [
   {
-    title: 'Keyboards',
+    title: "Keyboards",
+    // Svg: require('@site/static/img/logo.svg').default,
+    description: (
+      <>I'm dedicated to making better keyboards, even if they aren't designed for the majority.</>
+    ),
+  },
+  {
+    title: "Development Boards",
     // Svg: require('@site/static/img/logo.svg').default,
     description: (
       <>
-        I'm dedicated to making better keyboards, even if they aren't designed for the majority.
+        Great tool for developing keyboards, cost-effective, readily available components and user
+        convenience.
       </>
     ),
   },
   {
-    title: 'Development Boards',
+    title: "Open Source",
     // Svg: require('@site/static/img/logo.svg').default,
-    description: (
-      <>
-        Great tool for developing keyboards, cost-effective, readily available components and user convenience.
-      </>
-    ),
-  },
-  {
-    title: 'Open Source',
-    // Svg: require('@site/static/img/logo.svg').default,
-    description: (
-      <>
-        Permissive license allow people to use or modify more easily and freely.
-      </>
-    ),
+    description: <>Permissive license allow people to use or modify more easily and freely.</>,
   },
 ];
 
 function Feature({ Svg, title, description }) {
   return (
-    <div className={clsx('col col--4')}>
-      <div className="text--center">
-        {/* <Svg className={styles.featureSvg} role="img" /> */}
-      </div>
+    <div className={clsx("col col--4")}>
+      <div className="text--center">{/* <Svg className={styles.featureSvg} role="img" /> */}</div>
       <div className="text--center padding-horiz--md">
         <h3>{title}</h3>
         <p>{description}</p>

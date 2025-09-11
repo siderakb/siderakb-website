@@ -11,6 +11,7 @@ This document for the `Rev 2.x` of the ErgoSNM keyboard, the latest is [`Rev 2.1
 My blog post: [ErgoSNM——有軌跡球的分離式人體工學QMK鍵盤 (v2.1)](https://ziteh.github.io/posts/ergosnm-v2-1-intro/)
 
 ## Features
+
 1. 64 keys in total, left half (with thumb cluster) 29+6 keys, right half (with trackball) 29 keys.
 1. Trackball for mouse cursor and scroll, powered by [PMW3360](https://www.pixart.com/products-detail/10/PMW3360DM-T2QU) optical mouse sensor.
 1. USB Type-C receptacle connector, with ESD protection adn resettable fuse.
@@ -151,7 +152,7 @@ My blog post: [ErgoSNM——有軌跡球的分離式人體工學QMK鍵盤 (v2.1)
 
 ### PCB and Electronic Parts
 
-Here are listed all the electronic components in more detail for PCBs. 
+Here are listed all the electronic components in more detail for PCBs.
 
 | Left half main PCB                                                      | Right half main PCB                                                     | Thumb cluster                                                           | Trackball board                                                         |
 | ----------------------------------------------------------------------- | ----------------------------------------------------------------------- | ----------------------------------------------------------------------- | ----------------------------------------------------------------------- |
@@ -194,10 +195,9 @@ If you use PCBA service, you don't have to prepare and solder most or even all o
     - If you choose to use USB, then each half requires 2 USB and no TRRS/TRS.
     - TRRS/TRS does not support hot plugging in practice.
 3. For `v2.0`, `J4` is JST GH1.25 8P connector (Mfr. Part No: *SM08B-GHS-TB(LF)(SN)*), please refer to the schematic for wiring sequence.
-97. If you want to save some money, you can consider not using PCBA service soldering `U1`, `F1` and `J1`\~`J4` (all are *Extended* parts), there parts are not very difficult to solder by soldering iron, and cheap to buy separately.
-98. I have never used JLCPCB's PCBA service to solder `U1`, `F1`, `J1`\~`J4` and `KEY1`\~`KEY29` parts. Please check the PCBA files yourself, especially the CPL file, if you need to.
-99. Please note that the above information is subject to change, so please refer to the current situation.
-
+4. If you want to save some money, you can consider not using PCBA service soldering `U1`, `F1` and `J1`\~`J4` (all are *Extended* parts), there parts are not very difficult to solder by soldering iron, and cheap to buy separately.
+5. I have never used JLCPCB's PCBA service to solder `U1`, `F1`, `J1`\~`J4` and `KEY1`\~`KEY29` parts. Please check the PCBA files yourself, especially the CPL file, if you need to.
+6. Please note that the above information is subject to change, so please refer to the current situation.
 
 #### Thumb Cluster
 
@@ -216,6 +216,7 @@ I did not prepare the PCBA files (i.e. BOM and CPL) for thumb cluster, if you ne
 #### Trackball Board
 
 For ErgoSNM `v2.1`, ref to PMW3360 PCB `V3.1`:
+
 - [BOM](https://github.com/siderakb/pmw3360-pcb/tree/v3.1.0#bom)
 - [Release](https://github.com/siderakb/pmw3360-pcb/releases/tag/v3.1.0)
 
@@ -226,6 +227,7 @@ For ErgoSNM `v2.1`, ref to PMW3360 PCB `V3.1`:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/1BXKdrCFn6c?si=3hTZfduKW4ZxY-fo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 Steps summary:
+
 1. [Prepare parts](#prepare-parts)
 1. [Solder](#solder)
 1. [Flash firmware](#flash-firmware)
@@ -241,9 +243,11 @@ Some online electronic parts stores in my country will help find and purchase ra
 There are 3 different BTU models listed in the part list, and they are exact same size.
 
 Approximate cost in USD:
+
 - PCBA: $80
 - 3D printing case: $46
 - other parts: $32
+
 :::
 
 ### Prepare Parts
@@ -269,7 +273,6 @@ After soldering is completed, remember to use a multimeter to test for any short
 
 ### Flash Firmware
 
-
 There are two way to flash firmware:
 
 import Tabs from '@theme/Tabs';
@@ -285,10 +288,12 @@ import TabItem from '@theme/TabItem';
 
 :::note
 If you want to build/compile `.uf2`, follow the steps:
+
 1. Git clone [firmware repo](https://github.com/siderakb/vial-qmk).
 2. Open [QMK MSYS](https://msys.qmk.fm/) or your preferred terminal.
 3. Navigate to the cloned repo directory and checkout to `siderakb/main` branch.
 4. Build via command `make siderakb/ergosnm/rev2:vial`. You may need to additionally install *make*.
+
 :::
   </TabItem>
   <TabItem value="cli" label="CLI">
@@ -320,31 +325,36 @@ You can use a site like [this](https://en.key-test.ru/) or [this](https://keytes
 
 ### Assemble
 
-1. Use soldering iron to installing threaded inserts in keyboard case.  
-:::caution
-The wall of the hole at the thumb cluster is very thin, so please be careful.
-:::
+1. Use soldering iron to installing threaded inserts in keyboard case.
+
+   :::caution
+   The wall of the hole at the thumb cluster is very thin, so please be careful.
+   :::
+
 2. Connect the FPC/FFC cables between main board and thumb cluster/trackball board.  
-![](https://i.imgur.com/kWDrTm2.jpg)
+   ![](https://i.imgur.com/kWDrTm2.jpg)
 
 3. Screw main and thumb cluster plates to the case.  
-![](https://i.imgur.com/54kXYYD.jpg)
+   ![](https://i.imgur.com/54kXYYD.jpg)
 
 4. Insert switches into the plate and PCB, you can insert the corner switches first to fix.
-:::caution
-Before inserting the switch into the hot-swap socket, check if the switch pins are bent. If you find any bent pins, please straighten them.
-:::
-![](https://i.imgur.com/5N0QGRi.jpg)  
-![](https://i.imgur.com/Lklcmzc.jpg)  
-![](https://i.imgur.com/BhxgrRT.jpg)
 
-1. Screw bottom cover and foots.
-![](https://i.imgur.com/zlm93b8.jpg)
+   :::caution
+   Before inserting the switch into the hot-swap socket, check if the switch pins are bent. If you find any bent pins, please straighten them.
+   :::
 
-1. Add your keycaps. Plugin the TRRS/TRS or USB cable to connect two halves.
-:::caution
-Please note that TRRS/TRS does not support hot plugging in practice, please plug and unplug TRRS/TRS cable after unplugging the USB cable between keyboard and computer.
-:::
+   ![](https://i.imgur.com/5N0QGRi.jpg)  
+   ![](https://i.imgur.com/Lklcmzc.jpg)  
+   ![](https://i.imgur.com/BhxgrRT.jpg)
+
+5. Screw bottom cover and foots.
+   ![](https://i.imgur.com/zlm93b8.jpg)
+
+6. Add your keycaps. Plugin the TRRS/TRS or USB cable to connect two halves.
+
+   :::caution
+   Please note that TRRS/TRS does not support hot plugging in practice, please plug and unplug TRRS/TRS cable after unplugging the USB cable between keyboard and computer.
+   :::
 
 ### Edit Keymap
 
@@ -357,4 +367,3 @@ ErgoSNM support [Vial](https://get.vial.today/), you can edit keymap in real tim
 Congratulations on getting a new keyboard🎉
 
 ![](https://i.imgur.com/ovP1uKJ.jpg)
-
