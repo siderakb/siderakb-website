@@ -3,6 +3,9 @@
 
 const lightCodeTheme = require("prism-react-renderer").themes.github;
 const darkCodeTheme = require("prism-react-renderer").themes.dracula;
+const dotenv = require("dotenv");
+
+dotenv.config();
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -31,6 +34,19 @@ const config = {
     defaultLocale: "en",
     locales: ["en"],
   },
+  headTags: [
+    ...(process.env.GOOGLE_SITE_VERIFICATION
+      ? [
+          {
+            tagName: "meta",
+            attributes: {
+              name: "google-site-verification",
+              content: process.env.GOOGLE_SITE_VERIFICATION,
+            },
+          },
+        ]
+      : []),
+  ],
 
   presets: [
     [
