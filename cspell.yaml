@@ -1,9 +1,11 @@
 version: "0.2"
 language: en
 ignorePaths:
-  - "node_modules/**"
-  - "build/**"
-  - ".docusaurus/**"
-  - ".husky/**"
-  - "pnpm-lock.yaml"
+  - node_modules/**
+  - build/**
+  - .docusaurus/**
+  - .husky/**
+  - pnpm-lock.yaml
   - "*.svg"
+words:
+  - siderakb
