@@ -33,7 +33,7 @@ export default defineConfig({
             {
               label: "List",
               link: "/keyboards/keyboard-list",
-              attrs: { class: "large" },
+              // attrs: { class: "large" },
             },
             {
               label: "ErgoSNM",
@@ -62,6 +62,21 @@ export default defineConfig({
             {
               label: "Keypad",
               link: "https://github.com/siderakb/Keypad",
+            },
+          ],
+        },
+        {
+          label: "Mouse Sensors",
+          items: [
+            {
+              label: "PMW3610 PCB",
+              badge: { text: "Pop", variant: "note" },
+              items: [
+                {
+                  label: "Rev 2.x",
+                  link: "/mouse-sensors/pmw3610/rev2",
+                },
+              ],
             },
           ],
         },
@@ -146,6 +161,13 @@ export default defineConfig({
               href: {
                 en: "/keyboards/ergosnm/rev2/",
                 "zh-TW": "/zh-tw/keyboards/ergosnm/rev2/",
+              },
+            },
+            {
+              label: "PMW3610 PCB",
+              href: {
+                en: "/mouse-sensors/pmw3610/rev2/",
+                "zh-TW": "/zh-tw/mouse-sensors/pmw3610/rev2/",
               },
             },
           ],

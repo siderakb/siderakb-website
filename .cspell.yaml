@@ -19,6 +19,7 @@ words:
   - ASUS
   - autoplay
   - AVRDUDESS
+  - badjeff
   - Ballz
   - bancouver
   - BCHJJ
@@ -39,6 +40,7 @@ words:
   - geoah
   - Haptick
   - HATSU
+  - inorichi
   - JLCPCB
   - joric
   - Kailh
@@ -66,9 +68,9 @@ words:
   - peaceiris
   - Pinmap
   - Ploopy
-  - PMW3610DB-SUDU
   - praescriptos
   - SCLK
+  - SDIO
   - sidera
   - siderakb
   - Skeletyl
@@ -76,14 +78,18 @@ words:
   - Spacemouse
   - Sphale
   - SPST
+  - SUDU
   - Taobao
   - trackbowl
   - Trackpad
   - transibunt
+  - trentrand
   - TRRS
   - UART
   - UEFI
   - VBUS
+  - VDDIO
+  - victorlucachi
   - W25Q128JVSIQ
   - Zazu
   - zite
