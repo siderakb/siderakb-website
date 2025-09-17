@@ -84,6 +84,13 @@ export default defineConfig({
       ],
       favicon: "/favicon.ico",
       head: [
+        {
+          tag: "meta",
+          attrs: {
+            name: "google-site-verification",
+            content: process.env.GOOGLE_SITE_VERIFICATION,
+          },
+        },
         // {
         //   tag: "link",
         //   attrs: {
