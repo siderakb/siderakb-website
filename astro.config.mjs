@@ -71,7 +71,7 @@ export default defineConfig({
         },
       ],
       editLink: {
-        baseUrl: "https://github.com/siderakb/siderakb-website/edit/main/",
+        baseUrl: "https://github.com/siderakb/siderakb-website/edit/starlight/main/",
       },
       customCss: [
         "./src/styles/custom.css",
