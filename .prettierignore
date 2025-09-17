@@ -1,0 +1,10 @@
+.git/
+node_modules/
+build/
+dist/
+
+package-lock.json
+pnpm-lock.yaml
+
+# Markdown files are handled by a markdownlint
+**/*.md

@@ -1,0 +1,94 @@
+:root {
+  --sl-font: "Inter", "Noto Sans TC", sans-serif;
+  --sl-content-width: 65rem;
+  --sl-sidebar-width: 16.5rem;
+  --sl-color-black: #16181c;
+  --sl-color-accent-low: #3b0764;
+  --sl-color-accent: #5d218a;
+  --sl-color-accent-high: #8861bb;
+
+  --logo-font: #5b4833;
+  --logo-background: #2e2c3c;
+}
+
+:root[data-theme="light"] {
+  --sl-color-black: #f5f6f8;
+
+  --sl-color-purple-low: #f3e8ff;
+  --sl-color-accent: #8f58b9;
+  --sl-color-purple-high: #6b21a8;
+
+  --logo-font: #906f4b;
+  --logo-background: #bbb8d1;
+  /* --logo-background: #867dbf; */
+}
+
+.hero {
+  padding: 0;
+}
+
+.hero-logo {
+  padding: 2rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-panel .hero-logo {
+  padding: 0;
+}
+
+.hero-logo-figure {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.hero-logo-image {
+  display: block;
+}
+
+.hero-logo-caption {
+  margin-top: 2rem;
+  color: var(--logo-font);
+  font-size: 1.5rem;
+}
+
+.home-bg {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: -1; /* sit behind content */
+}
+
+.home-bg::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, var(--logo-background) 15%, var(--sl-color-bg) 65%);
+  transition: opacity 300ms ease;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .home-bg::before {
+    transition: none;
+  }
+}
+
+.hero-actions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4rem;
+}
+
+.hero-actions > * {
+  margin: 0 0.5rem;
+}
+
+.hero-actions .sl-link-button {
+  background-color: var(--sl-color-gray-2);
+  border-color: var(--sl-color-gray-2);
+}

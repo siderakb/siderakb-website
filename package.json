@@ -1,0 +1,45 @@
+{
+  "name": "siderakb-website",
+  "type": "module",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "format": "prettier --write . && markdownlint-cli2 --fix \"**/*.md\" \"#node_modules\"",
+    "format:check": "prettier --check . && markdownlint-cli2 \"**/*.md\" \"#node_modules\"",
+    "spell:check": "cspell . --config .cspell.yaml",
+    "prepare": "husky"
+  },
+  "lint-staged": {
+    "*.{js,mjs,cjs,ts,astro,mdx,json,css,yaml,html}": [
+      "prettier --write"
+    ],
+    "*.md": [
+      "markdownlint-cli2 --fix"
+    ]
+  },
+  "dependencies": {
+    "@astrojs/starlight": "^0.35.3",
+    "@fontsource/inter": "^5.2.7",
+    "@fontsource/noto-sans-tc": "^5.2.7",
+    "astro": "^5.6.1",
+    "lint-staged": "^16.1.6",
+    "sharp": "^0.34.2",
+    "starlight-links-validator": "^0.17.2",
+    "starlight-theme-nova": "^0.9.4"
+  },
+  "devDependencies": {
+    "cspell": "^9.2.1",
+    "husky": "^9.1.7",
+    "markdownlint-cli2": "^0.18.1",
+    "prettier": "3.6.2"
+  },
+  "packageManager": "pnpm@10.11.1",
+  "engines": {
+    "node": ">=22"
+  }
+}

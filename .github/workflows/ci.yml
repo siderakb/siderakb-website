@@ -1,0 +1,56 @@
+name: CI
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+# This website is currently deployed on Cloudflare Pages,
+# using its default Build environment v3.
+# https://developers.cloudflare.com/pages/configuration/build-image/
+env:
+  NODE_VERSION: 22.16.0
+  PNPM_VERSION: 10.11.1
+
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    permissions:
+      contents: write
+    concurrency:
+      group: ${{ github.workflow }}-${{ github.ref }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: ${{ env.PNPM_VERSION }}
+          run_install: false
+
+      - name: Install Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: "pnpm"
+
+      - name: Install deps
+        run: pnpm install --ignore-scripts
+
+      - name: Check formatting
+        run: pnpm run format:check
+
+      - name: Check spelling
+        run: pnpm run spell:check
+
+      - name: Build website
+        run: pnpm run build
+
+      # Currently deploy on Cloudflare Pages, no need to deploy on GitHub Pages.
+      # - name: Deploy
+      #   uses: peaceiris/actions-gh-pages@v4
+      #   with:
+      #     personal_token: ${{ secrets.PERSONAL_TOKEN }}
+      #     external_repository: siderakb/siderakb.github.io
+      #     publish_branch: gh-pages
+      #     publish_dir: ./build

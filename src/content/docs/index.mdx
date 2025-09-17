@@ -1,0 +1,29 @@
+---
+title: Sidera Keyboard
+head:
+  - tag: title
+    content: "Sidera Keyboard"
+description: SideraKB Open-Source Hardware Keyboards.
+template: splash
+hero:
+  title: " "
+editUrl: false
+---
+
+import Logo from "../../assets/logo.svg";
+import { LinkButton } from "@astrojs/starlight/components";
+
+<div class="home-bg" aria-hidden="true" />
+
+<section class="hero-logo" aria-label="Sidera logo">
+  <figure class="hero-logo-figure">
+    <Logo class="hero-logo-image" width={240} height={240} aria-hidden="true" />
+    <figcaption class="hero-logo-caption">Nunquam praescriptos transibunt sidera fines</figcaption>
+  </figure>
+</section>
+
+<div class="hero-actions" role="group" aria-label="Hero actions">
+  <LinkButton href="/intro" icon="rocket">
+    To the Moon
+  </LinkButton>
+</div>
