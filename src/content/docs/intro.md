@@ -6,7 +6,7 @@ Welcome to the **SideraKB** docs!
 
 ## Keyboards
 
-See [keyboard list](/keyboards/keyboard-list).
+See [keyboard list](/keyboards/list/).
 
 ## Development Boards
 

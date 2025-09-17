@@ -8,9 +8,9 @@ import starlightLinksValidator from "starlight-links-validator";
 export default defineConfig({
   site: "https://siderakb.ziteh.dev/",
   compressHTML: true,
-  trailingSlash: "never",
+  trailingSlash: "always",
   build: {
-    format: "file",
+    format: "directory",
   },
   integrations: [
     starlight({
@@ -144,8 +144,8 @@ export default defineConfig({
             {
               label: "ErgoSNM",
               href: {
-                en: "/keyboards/ergosnm/rev2",
-                "zh-TW": "/zh-tw/keyboards/ergosnm/rev2",
+                en: "/keyboards/ergosnm/rev2/",
+                "zh-TW": "/zh-tw/keyboards/ergosnm/rev2/",
               },
             },
           ],

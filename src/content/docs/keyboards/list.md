@@ -1,5 +1,5 @@
 ---
-title: Keyboards
+title: Keyboard List
 ---
 
 ## ErgoSNM
