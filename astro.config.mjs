@@ -32,7 +32,7 @@ export default defineConfig({
           items: [
             {
               label: "List",
-              link: "/keyboards/keyboard-list",
+              link: "/keyboards/list",
               // attrs: { class: "large" },
             },
             {
