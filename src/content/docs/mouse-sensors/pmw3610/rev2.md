@@ -101,7 +101,13 @@ Most of the current MCU IOs are 3.3V, please use **3.3V Logic** config for this 
 | `[1 2-3]` | 2 and 3 shorted; 1 *NC* | VDDIO = VDD = 1.8V             |
 | `[1-2-3]` | 1, 2 and 3 shorted      | VDDIO = VDD = VIN (LDO bypass) |
 
+| JP2     | Effect                              |
+| ------- | ----------------------------------- |
+| Shorted | Connects nRESET pin to FFC/FPC      |
+| Open    | Disconnects nRESET pin from FFC/FPC |
+
 - *NC*: Not Connected.
+- JP2 is only available on Rev 2.1.
 
 ## PMW3610 Spec
 
